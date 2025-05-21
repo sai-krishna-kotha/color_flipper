@@ -7,21 +7,33 @@
 .box{
     text-align: center;
     background-color: aliceblue;
+    border: 4px solid black;
 }
 .bg-border{
     padding: 20px;
     border: 2px solid black;
 }
-.click-me{
+.click-me-box{
     padding: 5px;
     background-color: aliceblue;
-    color: black;
     border: 2px solid black;
-
+}
+.click-me{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    transition: opacity .25s;
+    border-radius: 4px;
+}
+.click-me:active{
+    opacity: 0;
 }
 .click-me:hover{
     cursor: pointer;
+    opacity: 0.8;
 }
+
 .current-color{
     padding: 15px;
     text-align: center;
