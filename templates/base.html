@@ -11,14 +11,36 @@
 <body>
     <div class="center-container">
         <div class="box">
-            <span class="current-color">
-                Color : <span id="current-color-id">white</span>
-            </span>
-            <br><br>
-            <button onclick=ChangeColor()>
-                CLICK ME!!
-            </button>
+            <div class="bg-border">
+                Background color
+            </div>
+            <div  class="click-me" >
+                <div class="current-color">
+                    <span id="current-color-id">white</span>
+                </div>
+                <div>
+                    <button class="click-me" onclick=ChangeColor()>
+                        Click ME!!
+                    </button>
+                </div>
+            </div>
         </div>
+
+
+        {% comment %} <div class="box">
+            <div class="bg-border">
+                Background Color <br>
+            </div>
+            <div>
+                <span class="current-color">
+                    <span id="current-color-id">white</span>
+                </span>
+                <br><br>
+                <button class="click-me" onclick=ChangeColor()>
+                    Click ME!!
+                </button>
+            </div>
+        </div> {% endcomment %}
     </div>
 </body>
 </html>
