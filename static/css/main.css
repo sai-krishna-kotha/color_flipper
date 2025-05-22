@@ -27,7 +27,7 @@
     border-radius: 4px;
 }
 .click-me:active{
-    opacity: 0;
+    opacity: 0.4;
 }
 .click-me:hover{
     cursor: pointer;
